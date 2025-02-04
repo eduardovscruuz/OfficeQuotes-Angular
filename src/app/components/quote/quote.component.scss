@@ -1,0 +1,26 @@
+.theQuote {
+  width: 80vw;
+  height: 30vh;
+  max-width: 750px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  h2 {
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+  }
+  p {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    font-weight: 100;
+    font-size: 0.7rem;
+    margin-top: 15px;
+    text-align: center;
+    font-style: italic;
+    color: rgba(255, 255, 255, 0.753);
+  }
+}

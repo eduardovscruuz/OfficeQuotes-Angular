@@ -1,0 +1,16 @@
+<div class="lang-switch">
+  <button
+    id="enBtn"
+    [class.usingLanguage]="currentLanguage === 'en'"
+    (click)="selectLanguage('en')"
+  >
+    EN
+  </button>
+  <button
+    id="ptBtn"
+    [class.usingLanguage]="currentLanguage === 'pt'"
+    (click)="selectLanguage('pt')"
+  >
+    PT
+  </button>
+</div>

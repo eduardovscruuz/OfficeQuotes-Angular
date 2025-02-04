@@ -1,0 +1,13 @@
+<app-black-container>
+  <img id="backArrow" (click)="backArrow()" src="assets/arrow.png" />
+  <app-quote [quoteText]="quoteText" [quoteAuthor]="quoteAuthor" />
+  <div class="btns">
+    <button id="copyBtn" (click)="copyQuoteToClipboard()">
+      {{ copyBtn | uppercase }}
+      <img src="assets/copy.png" />
+    </button>
+    <button id="anotherBtn" (click)="generateQuote()">
+      {{ generateOtherBtn | uppercase }}
+    </button>
+  </div>
+</app-black-container>
