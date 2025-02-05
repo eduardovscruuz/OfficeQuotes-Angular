@@ -1,27 +1,25 @@
-# OfficeQuotesAngular
+# The Office Quote Generator
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.11.
+![The Office Quote Generator](assets/office-quote-generator.png) <!-- Adicione uma imagem do projeto aqui -->
 
-## Development server
+Um gerador de citações aleatórias da série **The Office**, disponível em inglês e português. O projeto consome uma API personalizada para buscar as citações e permite compartilhar links diretos para citações específicas.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Funcionalidades
 
-## Code scaffolding
+- **Geração de citações aleatórias**: Clique no botão "Generate" para receber uma citação aleatória da série.
+- **Suporte a múltiplos idiomas**: Escolha entre inglês (`en`) e português (`pt`).
+- **Compartilhamento de citações**: Cada citação tem uma URL única, permitindo que você compartilhe citações específicas com outras pessoas.
+- **Troca de idioma**: Alterne entre inglês e português sem perder a citação atual.
+- **Copiar para a área de transferência**: Copie a citação atual com um único clique.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Tecnologias Utilizadas
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- **Frontend**:
+  - Angular
+  - TypeScript
+  - SCSS
+- **Backend**:
+  - C#
+  - .NET
+  - Azure
+  - [RandomQuotesAPI](https://github.com/eduardovscruuz/RandomQuotesAPI) (Clique aqui pra ver o repositório da API)
