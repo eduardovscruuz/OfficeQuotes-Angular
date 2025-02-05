@@ -24,3 +24,15 @@
     color: rgba(255, 255, 255, 0.753);
   }
 }
+
+@media only screen and (max-width: 700px) {
+  .theQuote {
+    width: 100%;
+    h2 {
+      font-size: 0.8rem;
+    }
+    p {
+      font-size: 0.6rem;
+    }
+  }
+}

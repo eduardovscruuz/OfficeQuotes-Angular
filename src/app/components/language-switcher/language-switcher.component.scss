@@ -31,3 +31,39 @@
     }
   }
 }
+
+@media only screen and (max-width: 700px) {
+  .lang-switch {
+    height: 5vh;
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    left: 30vw;
+    background-color: rgb(0, 0, 0);
+    border: 0 solid black;
+    border-width: 0 4px 4px 4px;
+    border-radius: 0px 0px 3px 3px;
+
+    button {
+      padding: 0.5rem 1rem;
+      background-color: transparent;
+      border: none;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      font-weight: bold;
+      color: rgba(255, 255, 255, 0.4);
+
+      &:hover {
+        background-color: #474747;
+        color: rgb(255, 255, 255);
+      }
+
+      &.usingLanguage {
+        background-color: #ffffff;
+        color: black;
+        transform: scale(1.05);
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+      }
+    }
+  }
+}
