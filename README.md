@@ -1,6 +1,6 @@
 # The Office Quote Generator
 
-![The Office Quote Generator](assets/office-quote-generator.png) <!-- Adicione uma imagem do projeto aqui -->
+![](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExdXJqM2J3NWNxazhmNTVubWMyZHd4c2xvcGR6MTk1MmF2NnU1d3Q1dCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/lMVNl6XxTvXgs/giphy.gif)
 
 Um gerador de citações aleatórias da série **The Office**, disponível em inglês e português. O projeto consome uma API personalizada para buscar as citações e permite compartilhar links diretos para citações específicas.
 
