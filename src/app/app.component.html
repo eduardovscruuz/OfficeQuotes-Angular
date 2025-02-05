@@ -1,8 +1,10 @@
+<app-language-switcher
+  [currentLanguage]="selectedLanguage"
+  (languageSelected)="newLang($event)"
+/>
 <main class="mainContainer">
-  <app-language-switcher
-    [currentLanguage]="selectedLanguage"
-    (languageSelected)="newLang($event)"
-  />
   <router-outlet></router-outlet>
-  <img src="../assets/OfficePeople.png" id="OfficePeople" />
 </main>
+<div class="officePeopleContainer">
+  <img src="../assets/OfficePeople.png" id="officePeople" />
+</div>
